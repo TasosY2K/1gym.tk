@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template, redirect
-from db import get_all_confessions, insert_confession
+from db import get_all_confessions, insert_confession, delete_confession
 
 app = Flask(__name__)
 
